@@ -1,4 +1,4 @@
-
+package es.unileon.prg.date;
 
 public class Date{
 	private int day;
@@ -93,9 +93,9 @@ public class Date{
 			case 12:m="Diciembre";
 			break;
 		}
-		return m;
+		return 0;
 	}
-	String nameOfTheMonth(){
+	int nameOfTheMonth(){
 		return this.nameOfTheMonth(this.month);
 	}
 	private int estacionOfTheMonth(int Month){
@@ -123,9 +123,9 @@ public class Date{
 			break;
 
 		}
-		return e;
+		return 0;
 	}
-	String estacionOfTheMonth(){
+	int estacionOfTheMonth(){
 		return this.estacionOfTheMonth(this.month);
 	}
 	private int daysOfTheMonth(int Month){
@@ -168,7 +168,15 @@ public class Date{
 	}
 
 */
+	int mesesQuedan(nameOfTheMonth){
+	
+		for(int i=m;i<m=12;i++){
+		}
+		
+		System.out.println("meses que quedan",mesesQuedan);
+	
+	}
 
-
+	int
 
 }
